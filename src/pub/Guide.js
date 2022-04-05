@@ -46,6 +46,11 @@ const Guide = () => {
                   <td className="status"></td>
                   <td className="writer"></td>
                   <td className="comment"></td>
+                  <td className="link" id="">
+                    <Link target={"_blank"} to="/pub/Minwoo">
+                      /pub/Minwoo
+                    </Link>
+                  </td>
                 </tr>
               </tbody>
             </table>
